@@ -1,0 +1,9 @@
+com\application\entity\Good.class
+com\application\repository\GoodRepository.class
+com\application\daoImpl\GoodDaoImpl.class
+com\application\service\GoodService.class
+com\application\entity\Order.class
+com\application\serviceImpl\GoodServiceImpl.class
+com\application\controller\IndexController.class
+com\application\dao\GoodDao.class
+com\application\ShoppingApplication.class
