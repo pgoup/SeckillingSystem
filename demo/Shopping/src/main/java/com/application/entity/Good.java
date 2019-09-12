@@ -1,9 +1,6 @@
 package com.application.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Good {
@@ -13,7 +10,9 @@ public class Good {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private String good_id;
+    //商品编号
+    @Column(unique = true,nullable = false)
+    private String goodId;
 
     //商品名称
     private String name;
@@ -21,14 +20,19 @@ public class Good {
     //商品简介
     private String introdution;
 
+    //商品是否打折
+    private int discount;
+
+    //商品类型
+    private String kind;
+
     //商品库存
     private int count;
 
     //商品价格
     private double price;
 
-    public Good()
-    {
+    public Good() {
     }
 
     public int getId() {
@@ -39,12 +43,12 @@ public class Good {
         this.id = id;
     }
 
-    public String getGood_id() {
-        return good_id;
+    public String getGoodId() {
+        return goodId;
     }
 
-    public void setGood_id(String good_id) {
-        this.good_id = good_id;
+    public void setGoodId(String goodId) {
+        this.goodId = goodId;
     }
 
     public String getName() {
@@ -77,5 +81,21 @@ public class Good {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public int isDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(int discount) {
+        this.discount = discount;
+    }
+
+    public String getKind() {
+        return kind;
+    }
+
+    public void setKind(String kind) {
+        this.kind = kind;
     }
 }
