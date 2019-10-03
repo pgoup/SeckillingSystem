@@ -1,0 +1,13 @@
+com\application\entity\Good.class
+com\application\dao\daoImpl\GoodDaoImpl.class
+com\application\repository\GoodRepository.class
+com\application\kafka\MessageSender.class
+com\application\service\GoodService.class
+com\application\redis\RedisConfig.class
+com\application\redis\GoodRedisService.class
+com\application\dao\GoodDao.class
+com\application\service\serviceImpl\GoodServiceImpl.class
+com\application\redis\RedisServiceImpl\GoodRedisServiceImpl.class
+com\application\kafka\KafkaConfig.class
+com\application\controller\InfoController.class
+com\application\ShoppingApplication.class
