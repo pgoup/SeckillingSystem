@@ -1,0 +1,8 @@
+com\application\seckilling\compute\kafka\MessageConsumer$1.class
+com\application\seckilling\compute\service\GoodService.class
+com\application\seckilling\compute\redis\GoodRedisService.class
+com\application\seckilling\compute\redis\RedisConfig.class
+com\application\seckilling\compute\redis\RedisServiceImpl\GoodRedisServiceImpl.class
+com\application\seckilling\compute\ComputeApplication.class
+com\application\seckilling\compute\kafka\MessageConsumer.class
+com\application\seckilling\compute\service\Impl\GoodServiceImpl.class

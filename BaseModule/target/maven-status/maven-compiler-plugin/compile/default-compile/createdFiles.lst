@@ -1,0 +1,12 @@
+com\application\SeckillingSystem\BaseModule\dao\GoodDao.class
+com\application\SeckillingSystem\BaseModule\dao\OrderDetailDao.class
+com\application\SeckillingSystem\BaseModule\entity\OrderDetail.class
+com\application\SeckillingSystem\BaseModule\entity\User.class
+com\application\SeckillingSystem\BaseModule\dao\UserDao.class
+com\application\SeckillingSystem\BaseModule\dao\ShoppingCartDao.class
+com\application\SeckillingSystem\BaseModule\BaseModuleApplication.class
+com\application\SeckillingSystem\BaseModule\dao\OrderFormDao.class
+com\application\SeckillingSystem\BaseModule\entity\OrderForm.class
+com\application\SeckillingSystem\BaseModule\entity\ShoppingCart.class
+com\application\SeckillingSystem\BaseModule\Utils\produceOrderDetailUtils.class
+com\application\SeckillingSystem\BaseModule\entity\Good.class
